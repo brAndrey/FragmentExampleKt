@@ -19,7 +19,7 @@ class ViewPagerActivity: AppCompatActivity() {
 
         val fragmentAdapter = MyPagerAdapter(supportFragmentManager)
         viewpager.adapter = fragmentAdapter
-        tabs.setupWithViewPager(viewpager)
+        tabs_tabbet.setupWithViewPager(viewpager)
 
 //        tabs.setup
 

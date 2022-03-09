@@ -22,6 +22,7 @@ class TextFragment: Fragment() {
     ): View? {
 
         myObserverLifecycler = MyObserverFragment()
+
         lifecycle.addObserver(myObserverLifecycler)
 
         val view = inflater!!.inflate(R.layout.layout_text_fragment,container,false)

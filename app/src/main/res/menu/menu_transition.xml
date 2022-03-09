@@ -3,6 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/MainActivity_menu"
+        android:title="MainActivity"
+        app:showAsAction="withText"/>
+
+    <item
         android:id="@+id/ViewPagerActivity_menu"
         android:title="ViewPagerActivity"
         app:showAsAction="withText"/>
@@ -12,4 +17,9 @@
         android:title="RecyclerViewActivity"
         app:showAsAction="withText"/>
 
+
+    <item
+        android:id="@+id/TabbetActivity_menu"
+        android:title="TabbetActivity"
+        app:showAsAction="withText"/>
 </menu>

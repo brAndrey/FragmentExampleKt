@@ -20,6 +20,7 @@
         </activity>
         <activity android:name=".ViewPagerExemple.ViewPagerActivity"/>
         <activity android:name=".RecyclerViewExample.RecyclerViewActivity"/>
+        <activity android:name=".TabbetExample.TabbetActivity"/>
     </application>
 
 </manifest>
