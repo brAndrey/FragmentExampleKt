@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2953125" />
+        <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2953125" />
+        <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/drawable/ic_repair.xml" value="0.2953125" />
         <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/layout/activity_recucler_view.xml" value="0.2911458333333333" />
         <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/layout/activity_second.xml" value="0.33" />
+        <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/layout/activity_view_pager.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/layout/fragment_first.xml" value="0.11524822695035461" />
         <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/layout/fragment_recyclerview.xml" value="0.2911458333333333" />
         <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/layout/fragment_second.xml" value="0.11524822695035461" />
@@ -16,6 +20,7 @@
         <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/menu/main_menu.xml" value="0.2911458333333333" />
         <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/menu/menu_main_activity.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/menu/menu_recycler_view_activity.xml" value="0.14074074074074075" />
+        <entry key="..\:/Users/andrey_vb/AndroidStudioProjects/FragmentExampleKt/app/src/main/res/menu/meny_view_pager_activity.xml" value="0.20520833333333333" />
       </map>
     </option>
   </component>

@@ -1,14 +1,20 @@
 package com.example.fragmentexamplekt.RecyclerViewExample
 
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.example.fragmentexamplekt.BaseExample.MainActivity
 import com.example.fragmentexamplekt.R
 import com.example.fragmentexamplekt.RecyclerViewExample.ViewModel.UsersViewModel
+import com.example.fragmentexamplekt.ViewPagerExemple.ViewPagerActivity
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
 
 class RecyclerViewActivity : AppCompatActivity(){
 
@@ -31,6 +37,15 @@ class RecyclerViewActivity : AppCompatActivity(){
         transaction.addToBackStack(null)
         transaction.commit()
 
+        //val fab: FloatingActionButton = findViewById(R.id.fab_RecyclerView)
+        //fab.setOnClickListener( -> userViwModel.updateListUsers() )
+
+        val fab: View = findViewById(R.id.fab_RecyclerView)
+        fab.setOnClickListener { view ->
+            userViwModel.updateListUsers()
+        }
+
+
 //        val adapter= RecyclerViewUserAdapter()
 //        var userList: RecyclerView = findViewById(R.id.userList)
 //        userList.layoutManager = LinearLayoutManager(this)
@@ -46,8 +61,21 @@ class RecyclerViewActivity : AppCompatActivity(){
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item?.itemId){R.id.refresh->{userViwModel.updateListUsers()}}
+            when(item?.itemId){R.id.ViewPagerActivity_menu->{goViewPagerActivity()}}
+            when(item?.itemId){R.id.MainActivity_menu->{goMainActivity()}}
 
         return super.onOptionsItemSelected(item)
     }
+
+    fun goViewPagerActivity(){
+        val randomIntent = Intent(this, ViewPagerActivity::class.java)
+        startActivity(randomIntent)
+    }
+
+    fun goMainActivity(){
+        val randomIntent = Intent(this, MainActivity::class.java)
+        startActivity(randomIntent)
+    }
+
 }
+

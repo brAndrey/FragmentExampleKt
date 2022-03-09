@@ -5,10 +5,9 @@
         android:id="@+id/MainActivity_menu"
         android:title="MainActivity"
         app:showAsAction="withText"/>
+
     <item
-        android:id="@+id/ViewPagerActivity_menu"
-        android:title="ViewPagerActivity"
+        android:id="@+id/RecyclerViewActivity_menu"
+        android:title="RecyclerViewActivity"
         app:showAsAction="withText"/>
-
-
 </menu>
